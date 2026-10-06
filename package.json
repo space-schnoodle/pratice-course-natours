@@ -1,0 +1,26 @@
+{
+  "name": "pratice-course-natours",
+  "version": "1.0.0",
+  "description": "Practice project of course of advance CSS; following the steps of the Udemy course [Advanced CSS and Sass: Flexbox, Grid, Animations and More! ](https://www.udemy.com/course/advanced-css-and-sass/?couponCode=NEWYEARCAREER) by professor Jonas Schmedtmann.",
+  "homepage": "https://github.com/space-schnoodle/pratice-course-natours#readme",
+  "bugs": {
+    "url": "https://github.com/space-schnoodle/pratice-course-natours/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/space-schnoodle/pratice-course-natours.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true
+  }
+}
